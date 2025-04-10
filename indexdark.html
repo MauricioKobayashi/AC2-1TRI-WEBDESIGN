@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agência Criativa</title>
+
+  <link href="bootstrap-5.1.3-dist/css/bootstrap.css" rel="stylesheet">
+  <style>
+
+    .card {
+      background-color: #2c3034;
+      border-color: #444;
+    }
+    .card-body {
+      color: #f8f9fa;
+    }
+    .form-control {
+      background-color: #2c3034;
+      border-color: #444;
+      color: #f8f9fa;
+    }
+    .form-control:focus {
+      background-color: #2c3034;
+      color: #f8f9fa;
+    }
+  </style>
+</head>
+<body class="bg-dark text-white">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container">
+      <a class="navbar-brand" href="#">Agência Criativa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-secondary text-white text-center p-5">
+    <div class="container">
+      <h1 class="display-4">Soluções Criativas para o Seu Negócio</h1>
+      <p class="lead">Design, desenvolvimento e estratégia para crescer online.</p>
+    </div>
+  </header>
+
+  <section id="servicos" class="py-5 bg-dark">
+    <div class="container">
+      <h2 class="text-center mb-4">Nossos Serviços</h2>
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow">
+            <img src="https://via.placeholder.com/400x200/2c3034/6c757d" class="card-img-top" alt="Web Design">
+            <div class="card-body">
+              <h5 class="card-title">Web Design</h5>
+              <p class="card-text">Criação de sites modernos, responsivos e otimizados.</p>
+              <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow">
+            <img src="https://via.placeholder.com/400x200/2c3034/6c757d" class="card-img-top" alt="Marketing Digital">
+            <div class="card-body">
+              <h5 class="card-title">Marketing Digital</h5>
+              <p class="card-text">Alcance mais clientes com estratégias eficazes.</p>
+              <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow">
+            <img src="https://via.placeholder.com/400x200/2c3034/6c757d" class="card-img-top" alt="SEO">
+            <div class="card-body">
+              <h5 class="card-title">Otimização SEO</h5>
+              <p class="card-text">Melhore seu posicionamento no Google com SEO técnico.</p>
+              <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="py-5 bg-black">
+    <div class="container">
+      <h2 class="text-center mb-4">Sobre Nós</h2>
+      <p class="text-md-center text-start">Somos uma equipe apaixonada por criar experiências digitais incríveis.</p>
+    </div>
+  </section>
+
+  <section id="contato" class="py-5 bg-dark">
+    <div class="container">
+      <h2 class="text-center mb-4">Entre em Contato</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+          <form>
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="nome" placeholder="Seu nome completo" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="email" placeholder="seu@email.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="telefone" class="form-label">Telefone</label>
+              <input type="tel" class="form-control" id="telefone" placeholder="(00) 00000-0000">
+            </div>
+            <div class="mb-3">
+              <label for="mensagem" class="form-label">Mensagem</label>
+              <textarea class="form-control" id="mensagem" rows="4" placeholder="Como podemos ajudar você?" required></textarea>
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn btn-success">Enviar Mensagem</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-black text-white text-center p-4">
+    <p>&copy; 2025 Agência Criativa. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>
